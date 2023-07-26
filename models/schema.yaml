@@ -1,9 +1,9 @@
 version: 2
 
 sources:
-  - name: raw_covid19
-    schema: airbyte_schema
-    database: AIRBYTE_DATABASE
+  - name: YOUR RAW_NAME
+    schema: YOUR_SCHEMA
+    database: YOUR_DATABASE
     description: A replica of the covid19 demographics data from Google BigQuery Open data.
     tables:
       - name: index
